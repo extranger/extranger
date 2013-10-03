@@ -67,19 +67,31 @@
 <body>
 
 <div id="container">
-	<h1>Welcome to CodeIgniter!</h1>
-
+	<h1>extranger  --  No strangers if you want to exchange and share!</h1>
 	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
+		<p>
+Extranger is a platform for skill holders to share, exchange their skills and experiences, "extranger" is from "exchange" and "stranger" these two words, we hope extranger can be a green platform for skill exchanging, if you know painting or photography, and you have great interest in Spanish, and  someone may want to learn painting and he or she knows Spanish, when you can find each other through extranger, make friends, meet each other and become a study partner, you can each new skills without paying any fees and know new friends, how wonderful!
+</p>
+		<hr>
+		<p><i>Skill exchange </i></p>
+     	<p>  --learn skills without paying, friends start with learning from each others</p>
+		<p>Post want you want to learn and want you can skills you can offer, set your mind, schedule your plan. It is time to hang out and learn something you interest, what way can more efficient than a face to face "friend teacher"? If you have skills, don't be shy, tell others you are generous person that show you want I got. Through skill exchanging, a win-win model created, a green platform of learning created!</p>
 
-		<p>If you would like to edit this page you'll find it located at:</p>
-		<code>application/views/welcome_message.php</code>
+		<hr>
+		<p><i>Blogging and sharing</i></p>
+     	<p>  -- Show your skills and share what you have learned</p>
+     	<p>share skills you are holding and what you want to lean to your social network, like facebook, twitter or tumblr, blogging your "exchanging" experience on your extranger page.</p>
 
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/welcome.php</code>
+     	<hr>
+		<p><i>Blogging and sharing</i></p>
+     	<p>  -- without paying, you can exchange more than skills</p>
+     	<p>Extranger also a platform for user to exchange unused Items, exchange out you old treasures, exchange in other people's old treasures, goods are shining again via this exchanging! No prices will be tagged, because we exchange for fun, for recycling, for more suitable places, for other people's stories.</p>
 
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
-	</div>
+     	<hr>
+		<p><i>Goods exchange</i></p>
+     	<p>  -- fulfil your dreams to be a teacher</p>
+     	<p>High level of skills sharing, as a form of seminar, talk, or workshop, free or pay to join, extranger will help to organise the seminar, speaker or audiences may or may not pay for the seminar. Extranger will build connection with education institutes, or other organisation to invite speaker to share their skills or experience regularly. </p>
+</div>
 
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p>
 </div>
