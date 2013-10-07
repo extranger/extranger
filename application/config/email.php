@@ -10,7 +10,7 @@
 |	http://codeigniter.com/user_guide/libraries/email.html
 |
 */
-$config['mailtype'] = 'html';
+$config['mailtype'] = 'html'; 
 $config['charset'] = 'utf-8';
 $config['newline'] = "\r\n";
 
