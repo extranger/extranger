@@ -54,7 +54,8 @@ $autoload['packages'] = array();
 
 $autoload['libraries'] = array();
 
-
+# Load the template library when the spark is loaded
+$autoload['libraries'] = array('template');
 /*
 | -------------------------------------------------------------------
 |  Auto-load Helper Files
