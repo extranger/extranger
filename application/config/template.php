@@ -28,7 +28,7 @@ $config['parser_enabled'] = TRUE;
 |
 */
 
-$config['parser_body_enabled'] = FALSE;
+$config['parser_body_enabled'] = TRUE;
 
 /*
 |--------------------------------------------------------------------------
@@ -56,7 +56,7 @@ $config['title_separator'] = ' | ';
 |
 */
 
-$config['layout'] = FALSE;
+$config['layout'] = TRUE;
 
 /*
 |--------------------------------------------------------------------------

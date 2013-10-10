@@ -7,14 +7,14 @@ class FB extends CI_Controller
 	function __construct()
 	{
 		parent::__construct();
-
-		$this->load->helper('url');
-				
+		$this->template->title('Welcome to Extranger')
+				->set('currentSection', 'FB')
+				->set_layout('default');
 	}
 
 	function index()
 	{
-
+		$this->template->build('test/test');
 	}
 
 	function login()
