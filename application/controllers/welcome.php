@@ -6,8 +6,10 @@ class Welcome extends CI_Controller
 	{
 		parent::__construct();
 
-		$this->load->helper('url');
 		$this->load->library('tank_auth');
+		$this->template->title('Welcome to Extranger')
+				->set('currentSection', 'Login')
+				->set_layout('default');
 	}
 
 	function index()
@@ -17,7 +19,8 @@ class Welcome extends CI_Controller
 		} else {
 			$data['user_id']	= $this->tank_auth->get_user_id();
 			$data['username']	= $this->tank_auth->get_username();
-			$this->load->view('welcome', $data);
+			//$this->load->view('welcome', $data);
+			$this->template->build('welcome', $data);
 		}
 	}
 }
