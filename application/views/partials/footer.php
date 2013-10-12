@@ -1,2 +1,4 @@
 <hr>
-this is footer!!
+<div class='container'>
+	this is footer!!
+</div>
