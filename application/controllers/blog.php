@@ -1,15 +1,14 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Welcome extends CI_Controller
+class Blog extends CI_Controller
 {
 	function __construct()
 	{
 		parent::__construct();
 
-		$this->load->library('tank_auth');
 		$this->template->title('Welcome to Extranger')
-				->set('currentSection', 'Login')
-				->set_layout('default');
+				->set('currentSection', 'Blog')
+				->set_layout('blog');
 	}
 
 	function index()
@@ -19,11 +18,8 @@ class Welcome extends CI_Controller
 		} else {
 			$data['user_id']	= $this->tank_auth->get_user_id();
 			$data['username']	= $this->tank_auth->get_username();
-			//$this->load->view('welcome', $data);
 			$this->template->build('welcome', $data);
 		}
 	}
-}
 
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */
+}

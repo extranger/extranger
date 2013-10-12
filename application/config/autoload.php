@@ -52,10 +52,7 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array();
-
-# Load the template library when the spark is loaded
-$autoload['libraries'] = array('template');
+$autoload['libraries'] = array('template', 'database', 'email', 'form_validation', 'tank_auth');
 /*
 | -------------------------------------------------------------------
 |  Auto-load Helper Files
@@ -65,7 +62,7 @@ $autoload['libraries'] = array('template');
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array();
+$autoload['helper'] = array('url', 'form', 'html', 'cookie');
 
 
 /*
