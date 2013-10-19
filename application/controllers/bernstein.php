@@ -52,4 +52,14 @@ class Bernstein extends CI_Controller
 		exec("java -jar '$url' '$param'", $output);
 		print_r(array_values($output));
 	}
+
+	function generateTestCase() {
+		$file = APPPATH."libraries/java/test.txt";
+		$current = file_get_contents($file);
+		$current .= "301\n";
+		for($i = 0; $i < 300; $i++)
+			$current .= "I ".rand(10000000, 90000000)." ".rand(10000000, 90000000)."\n";
+		$current .= "H";
+		file_put_contents($file, $current);
+	}
 }

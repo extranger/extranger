@@ -118,14 +118,14 @@
     <div class="container">
       <div class="starter-template">
         <h1>CS4221 Project Group po4</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+        <p class="lead">A relational database schema design case tool to transfer functional dependencies to a rational database schema by using enhanced Bernstein's algorithm</p>
       </div>
       <div class="container">
       <form class="form-input" action="<?php echo base_url() ?>index.php/bernstein/output" method="post">
-        <h2 class="form-input-heading">Input Funtional Dependency Below</h2>
+        <h2 class="form-input-heading">Input Funtional Dependencies Below</h2>
 
         <div id="parent" class="form-input">
-          <div id="block_1" class="parent_div">
+          <div id="block_1" class="parent_div" style="padding-left:200px">
             <div class="child_div">
               <input type="text" class="form-control" placeholder="ABC" autofocus name="left_input_1">
             </div>

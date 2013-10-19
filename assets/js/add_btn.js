@@ -9,7 +9,7 @@ $("#addBtn").click(function () {
     var curDiv = $('#parent');
     //var i = $('#parent div').size()/4 + 1;
     var newDiv='<div id="block_'+ counter + '" class="parent_div">' +
-    '<div class="child_div">' +
+    '<div class="child_div" style="padding-left:200px">' +
     '<input type="text" class="form-control" placeholder="ABC" autofocus name="left_input_' + counter + '">' +
     '</div>' +
     '<img class="img_container" src="http://extranger.com/extranger/assets/img/arrow.jpg" alt="dependency">' +
