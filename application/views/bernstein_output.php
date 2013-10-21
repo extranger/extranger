@@ -7,6 +7,10 @@
         padding-top: 60px;
         padding-bottom: 40px;
       }
+
+      #original-fds {
+        padding-left: 100px;
+      }
     </style>
   </head>
 
@@ -16,14 +20,16 @@
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
         <h1>Result</h1>
-        <p>This is the set of funtional dependencies .</p>
-        <div class="span12">
-        <?php
-            $data0 = explode("#", $step0);
-            for($i=0; $i < count($data0) - 1; $i++) {
-              echo '<p>'.$data0[$i].'</p>';
-            }
-        ?>
+          <div id='original-fds'>
+            <p>Input funtional dependencies .</p>
+            <div class="span12">
+            <?php
+                $data0 = explode("#", $step0);
+                for($i=0; $i < count($data0) - 1; $i++) {
+                  echo '<p>'.$data0[$i].'</p>';
+                }
+            ?>
+          </div>
       </div>
 
       <!-- Example row of columns -->
