@@ -12,7 +12,7 @@ $("#addBtn").click(function () {
     '<div class="child_div" style="padding-left:200px">' +
     '<input type="text" class="form-control" placeholder="ABC" autofocus name="left_input_' + counter + '">' +
     '</div>' +
-    '<img class="img_container" src="http://extranger.com/extranger/assets/img/arrow.jpg" alt="dependency">' +
+    '<img class="img_container" src="http://54.251.192.210/assets/img/arrow.jpg" alt="dependency">' +
     '<div class="child_div">' +
     '<input type="text" class="form-control" placeholder="DEF" autofocus name="right_input_' + counter + '">' +
     '</div><div class="rem_div"><a class="remove_block" href="#">Remove</a></div>' +

@@ -14,7 +14,8 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://extranger.com/extranger';
+//$config['base_url']	= 'http://extranger.com/extranger';
+$config['base_url']	= 'http://54.251.192.210';
 
 /*
 |--------------------------------------------------------------------------

@@ -701,6 +701,7 @@ class CI_Email {
 	 */
 	protected function _set_date()
 	{
+		ini_set('date.timezone','Asia/Singapore');
 		$timezone = date("Z");
 		$operator = (strncmp($timezone, '-', 1) == 0) ? '-' : '+';
 		$timezone = abs($timezone);
