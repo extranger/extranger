@@ -21,12 +21,17 @@
       <div class="hero-unit">
         <h1>Result</h1>
           <div id='original-fds'>
-            <p>Input funtional dependencies .</p>
+            <h4>Input funtional dependencies:</h4>
             <div class="span12">
             <?php
                 $data0 = explode("#", $step0);
                 for($i=0; $i < count($data0) - 1; $i++) {
                   echo '<p>'.$data0[$i].'</p>';
+                }
+                echo "<h4>All the keys:</h4>";
+                $data7 = explode("#", $step7);
+                for($i=0; $i < count($data7); $i++) {
+                  echo '<p>'.$data7[$i].'</p>';
                 }
             ?>
           </div>

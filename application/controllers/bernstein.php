@@ -53,12 +53,12 @@ class Bernstein extends CI_Controller
 
 		$outputStr = implode("#", $output);
 		$outputArr = explode("%#", $outputStr);
-
-		//print_r($outputArr);
+		//var_dump($outputStr);
 		$data = array();
 		for($i = 0; $i < count($outputArr); $i++) {
 			$data['step'.$i] = $outputArr[$i];
 		}
+		//var_dump($data);
 		$this->template->build("bernstein_output", $data);
 	}
 }
