@@ -26,6 +26,8 @@ class Bernstein extends CI_Controller
 	    foreach ($_POST as $key => $value) {
 	      if (!empty($value))
 	      {
+	      	  $value = strtoupper($value);
+	      	  $value = trim($value);
 	          // Strip out comma ,  semicolons , dots in the value
 	          $value = preg_replace('~[,;.]~', '', $value);
 	          // Example : left_input_1
