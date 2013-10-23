@@ -100,6 +100,14 @@
               for($i=0; $i < count($data6) - 1; $i++) {
                 echo '<p>'.$data6[$i].'</p>';
               }
+
+              if(!is_null($step8)) {
+                echo '<p></p>';
+                $data8 = explode("#", $step8);
+                for($i=0; $i < count($data8); $i++) {
+                  echo '<p>'.$data8[$i].'</p>';
+                }
+              }
           ?>
         </div>
       </div>

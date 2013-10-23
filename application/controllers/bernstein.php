@@ -57,6 +57,7 @@ class Bernstein extends CI_Controller
 		$outputArr = explode("%#", $outputStr);
 		//var_dump($outputStr);
 		$data = array();
+		$data['step8'] = null;
 		for($i = 0; $i < count($outputArr); $i++) {
 			$data['step'.$i] = $outputArr[$i];
 		}
