@@ -46,7 +46,7 @@ class Bernstein extends CI_Controller
 	          $prev_id = $id;
 	       }
 	    }
-
+	    
 	    $results = ltrim ($results,',');
 
 	    $param = "=".$results;
@@ -63,5 +63,5 @@ class Bernstein extends CI_Controller
 		}
 		//var_dump($data);
 		$this->template->build("bernstein_output", $data);
-	}
 }
+	}
